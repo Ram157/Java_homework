@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task1 {
+public class SR2task1 {
     static double cosSum(double x,int n) {
         double sum=1;
         double term=1;

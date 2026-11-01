@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task3 {
+public class SR1task3 {
     public static int[] countNumbers(int a,int b,int c) {
         int plus=0;
         int minus=0;

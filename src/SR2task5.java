@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task5 {
+public class SR2task5 {
     static boolean exit=false;
 
     static Double readSide(Scanner sc,String name) {

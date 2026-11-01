@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task2 {
+public class SR1task2 {
     public static double calculate(double x) {
         return 3*Math.pow(x,6)-6*Math.pow(x,2)-5;
     }

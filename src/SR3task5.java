@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task5 {
+public class SR3task5 {
     static boolean exit=false;
 
     static Double readNumber(Scanner sc,String name) {

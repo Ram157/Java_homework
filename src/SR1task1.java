@@ -1,4 +1,4 @@
-public class Task1 {
+public class SR1task1 {
     public static void main(String[] args) {
         String y="гитара";
         int array=6834;

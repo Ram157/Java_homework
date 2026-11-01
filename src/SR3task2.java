@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
-public class Task1 {
+public class SR3task2 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("N: ");
         int n=sc.nextInt();
-        System.out.print("K: ");
-        int k=sc.nextInt();
         int[] a=new int[n];
 
         System.out.println("Введите элементы массива:");
@@ -14,10 +12,14 @@ public class Task1 {
             a[i]=sc.nextInt();
         }
 
-        System.out.println("Элементы с номерами, кратными K:");
-        for(int i=k-1;i<n;i+=k) {
-            System.out.print(a[i]+" ");
+        int max=0;
+        for(int i=0;i<n;i++) {
+            int count=0;
+            for(int j=0;j<n;j++) {
+                if(a[i]==a[j]) count++;
+            }
+            if(count>max) max=count;
         }
-        System.out.println();
+        System.out.println("Максимальное количество одинаковых элементов: "+max);
     }
 }

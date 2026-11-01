@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task3 {
+public class SR3task3 {
     static long[] makeB(int[] a) {
         long[] b=new long[a.length];
         long sum=0;

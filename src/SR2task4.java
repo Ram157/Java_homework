@@ -1,4 +1,4 @@
-public class Task4 {
+public class SR2task4 {
     static double tangent(int degree) {
         return Math.tan(Math.toRadians(degree));
     }

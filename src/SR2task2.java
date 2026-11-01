@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task2 {
+public class SR2task2 {
     static double[] find(double eps) {
         int k=1;
         double prev=2;

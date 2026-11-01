@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task3 {
+public class SR2task3 {
     static double fraction(double x) {
         return x-Math.floor(x);
     }
